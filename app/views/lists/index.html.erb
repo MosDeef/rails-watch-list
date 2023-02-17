@@ -7,7 +7,7 @@
 <div class="container my-4">
   <div class="cards">
     <% @lists.each do |list| %>
-      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= list.photo.attached? ? cl_image_path(list.photo.key) : 'https://thumbs.dreamstime.com/b/young-movie-director-speaking-megaphone-black-beret-holding-clapperboard-isolated-white-background-54105357.jpg' %>)">
+      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= list.photo.attached? ? cl_image_path(list.photo.key) : 'https://robonwriting.com/wp-content/uploads/2013/03/film-reel.jpg' %>)">
         <h2><%= link_to list.name, list_path(list)  %></h2>
       </div>
     <% end %>

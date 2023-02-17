@@ -13,3 +13,18 @@
 @import "pages/index";
 @import "components/banner";
 @import "components/card";
+
+a {
+  text-decoration: none;
+  background-color: #7A090B;
+  color: rgb(222, 211, 211);
+  text-shadow: 2px 2px 5px #7A090B;
+
+}
+
+body {
+  background: #1e130c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #9a8478, #1e130c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #9a8478, #1e130c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
