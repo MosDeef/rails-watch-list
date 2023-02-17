@@ -7,7 +7,7 @@
     <br>
     <%= link_to 'Back to list of lists', lists_path  %>
   </div>
-  <p><strong>Comments</strong></p>
+  <p data-controller="rough-notation" data-rough-notation-style-value="circle"><strong>Comments</strong></p>
   <% @list.bookmarks.each do |bookmark| %>
     <div class="card-product-infos">
       <p><%= bookmark.comment %></p>
