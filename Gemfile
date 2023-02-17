@@ -46,6 +46,7 @@ gem "bootsnap", require: false
 gem "sassc-rails"
 
 gem "autoprefixer-rails"
+gem "cloudinary"
 gem "dotenv-rails", groups: [:development, :test]
 gem "font-awesome-sass", "~> 6.1"
 gem "simple_form", github: "heartcombo/simple_form"
